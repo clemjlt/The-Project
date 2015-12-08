@@ -38,6 +38,7 @@ class Ressources(object):
         self.quantite += self.vitesse_regen
 
 def coucou():
+    print("ca marche pas")
     pass
 
     

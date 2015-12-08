@@ -37,7 +37,10 @@ class Ressources(object):
     def regeneration(self):
         self.quantite += self.vitesse_regen
 
+def coucou():
+    pass
 
+    
 class Pion(object):
 
     """ objet pion"""

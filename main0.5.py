@@ -239,6 +239,10 @@ def update_source():
         elem.regeneration()
 
 
+def poeut():
+    pass
+
+
 def update_pions(liste, tour):
     ranj = range(len(liste_pions))
 

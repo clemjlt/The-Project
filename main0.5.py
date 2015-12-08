@@ -37,11 +37,16 @@ class Ressources(object):
     def regeneration(self):
         self.quantite += self.vitesse_regen
 
+
+def cestchiant():
+    pass
+    
+
 def coucou():
     print("ca marche pas")
     pass
 
-    
+
 class Pion(object):
 
     """ objet pion"""
@@ -277,7 +282,8 @@ nb_pions = 10
 
 pion1 = Pion("Captain America", [10, 50], 5,
              {"faim": [100, 100], "soif": [100, 100]})
-pion2 = Pion("Iron Man", [100, 100], 5, {"faim": [100, 100], "soif": [100, 100]})
+pion2 = Pion(
+    "Iron Man", [100, 100], 5, {"faim": [100, 100], "soif": [100, 100]})
 pion3 = Pion("Hulk", [25, 32], 5, {"faim": [100, 100], "soif": [100, 100]})
 pion4 = Pion("Hawkeye", [56, 87], 5, {"faim": [100, 100], "soif": [100, 100]})
 pion5 = Pion("Thor", [24, 60], 5, {"faim": [100, 100], "soif": [100, 100]})
@@ -285,7 +291,7 @@ pion5 = Pion("Thor", [24, 60], 5, {"faim": [100, 100], "soif": [100, 100]})
 liste_pions_dispo = [pion1, pion2, pion3, pion4, pion5]
 liste_pions = []
 
-while nb_pions >5:
+while nb_pions > 5:
     nb_pions = int(input("nombres de pions (max 5) : "))
 
 
@@ -307,9 +313,9 @@ try:
         update_pions(liste_tour_mort, tour)
         update_source()
         tour += 1
-        #print("\n")
+        # print("\n")
         # os.system("Pause")
-finally :
+finally:
     t1 = clock()
     print(t1 - t0)
     print(liste_tour_mort)

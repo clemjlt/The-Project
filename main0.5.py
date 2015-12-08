@@ -38,15 +38,6 @@ class Ressources(object):
         self.quantite += self.vitesse_regen
 
 
-def cestchiant():
-    pass
-    
-
-def coucou():
-    print("ca marche pas")
-    pass
-
-
 class Pion(object):
 
     """ objet pion"""
@@ -269,7 +260,7 @@ ressources_carte = []
 affichage = 1
 
 
-nombre_source = int(input("nombre de sources"))
+nombre_source = int(input("Nombre de sources : "))
 
 
 for k in range(0, nombre_source):

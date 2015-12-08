@@ -368,91 +368,32 @@
 	"buffers":
 	[
 		{
-			"file": "main0.5.py",
+			"contents": "Package Control Messages\n========================\n\nSublimeGit\n----------\n\n  Welcome to SublimeGit\n  =====================\n  \n  SublimeGit is a full-featured, commercial plugin for integrating\n  git into Sublime Text 2 and 3. To read more about it, or purchase\n  a license, go to https://sublimegit.net.\n  \n  \n  Quickstart\n  ----------\n  Make sure to restart Sublime Text after installing SublimeGit.\n  \n  Run the command \"Git: Status\" to open the status view. This\n  is where you'll spend most of the time when interacting with\n  git through SublimeGit. From here you can stage/unstage files,\n  manage stashes, view diffs, and initiate a commit.\n  \n  Other commands are available in the command palette (cmd+shift+p\n  on OS X, ctrl+shift+p on Windows/Linux). They are all prefixed\n  with \"Git:\" and most of them do exactly what it says on the label.\n  \n  \n  Tutorial\n  --------\n  For the full tutorial, go to:\n  \n      https://docs.sublimegit.net/tutorial.html\n  \n  \n  Trouble Getting Started?\n  ------------------------\n  If you are on windows, or don't usually use git from the command\n  line, there might be some things you'll need to set up. Go here\n  for instructions on how to get set up:\n  \n      https://docs.sublimegit.net/quickstart.html\n  \n  \n  Issues, Questions or Bugs?\n  --------------------------\n  Send a mail to support@sublimegit.net, or report it in the issue\n  tracker:\n  \n      https://github.com/SublimeGit/SublimeGit/issues\n",
 			"settings":
 			{
-				"buffer_size": 9285,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "----------------------- Tour n 0 ----------------------- \n         Captain America\n\nPosition debut : 10, 50 \nEtat debut :  {'faim': [100, 100], 'soif': [100, 100]} \n\nSources a portee :  [Source de soif, situee a (6,53), avec 10 de eau35, Source de soif, situee a (12,54), avec 10 de eau81]\nURGENT :  ('faim', [100, 100]) sources :  <class 'list'>\nSource choisie :  Source de soif, situee a (12,54), avec 10 de eau81\ndeplacement necessaire:  2 4\nPosition finale : 10, 51 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [90, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 1 ----------------------- \n         Captain America\n\nPosition debut : 10, 51 \nEtat debut :  {'faim': [90, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (6,53), avec 20 de eau35, Source de soif, situee a (12,54), avec 20 de eau81]\nURGENT :  ('faim', [90, 100]) sources :  <class 'list'>\nSource choisie :  Source de soif, situee a (12,54), avec 20 de eau81\ndeplacement necessaire:  2 3\nPosition finale : 10, 52 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [80, 100], 'soif': [80, 100]} \n\n\n\n----------------------- Tour n 2 ----------------------- \n         Captain America\n\nPosition debut : 10, 52 \nEtat debut :  {'faim': [80, 100], 'soif': [80, 100]} \n\nSources a portee :  [Source de soif, situee a (6,53), avec 30 de eau35, Source de soif, situee a (12,54), avec 30 de eau81]\nURGENT :  ('faim', [80, 100]) sources :  <class 'list'>\nSource choisie :  Source de soif, situee a (12,54), avec 30 de eau81\ndeplacement necessaire:  2 2\nPosition finale : 11, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [70, 100], 'soif': [70, 100]} \n\n\n\n----------------------- Tour n 3 ----------------------- \n         Captain America\n\nPosition debut : 11, 53 \nEtat debut :  {'faim': [70, 100], 'soif': [70, 100]} \n\nSources a portee :  [Source de soif, situee a (6,53), avec 40 de eau35, Source de soif, situee a (12,54), avec 40 de eau81]\nURGENT :  ('faim', [70, 100]) sources :  <class 'list'>\nSource choisie :  Source de soif, situee a (12,54), avec 40 de eau81\ndeplacement necessaire:  1 1\nPosition finale : 12, 54 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [60, 100], 'soif': [60, 100]} \n\nLa source de regenere de  40 soif\nEtat apres source :  {'faim': [60, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 4 ----------------------- \n         Captain America\n\nPosition debut : 12, 54 \nEtat debut :  {'faim': [60, 100], 'soif': [100, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 12, 55 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [50, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 5 ----------------------- \n         Captain America\n\nPosition debut : 12, 55 \nEtat debut :  {'faim': [50, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (12,54), avec 20 de eau81]\nURGENT :  ('faim', [50, 100]) sources :  <class 'list'>\nSource choisie :  Source de soif, situee a (12,54), avec 20 de eau81\ndeplacement necessaire:  0 -1\nPosition finale : 12, 54 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [40, 100], 'soif': [80, 100]} \n\nLa source de regenere de  20 soif\nEtat apres source :  {'faim': [40, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 6 ----------------------- \n         Captain America\n\nPosition debut : 12, 54 \nEtat debut :  {'faim': [40, 100], 'soif': [100, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 11, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [30, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 7 ----------------------- \n         Captain America\n\nPosition debut : 11, 53 \nEtat debut :  {'faim': [30, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (6,53), avec 80 de eau35, Source de soif, situee a (12,54), avec 20 de eau81]\nURGENT :  ('faim', [30, 100]) sources :  <class 'list'>\nSource choisie :  Source de soif, situee a (12,54), avec 20 de eau81\ndeplacement necessaire:  1 1\nPosition finale : 12, 54 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [20, 100], 'soif': [80, 100]} \n\nLa source de regenere de  20 soif\nEtat apres source :  {'faim': [20, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 8 ----------------------- \n         Captain America\n\nPosition debut : 12, 54 \nEtat debut :  {'faim': [20, 100], 'soif': [100, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 12, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [10, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 9 ----------------------- \n         Captain America\n\nPosition debut : 12, 53 \nEtat debut :  {'faim': [10, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (12,54), avec 20 de eau81]\nURGENT :  ('faim', [10, 100]) sources :  <class 'list'>\nSource choisie :  Source de soif, situee a (12,54), avec 20 de eau81\ndeplacement necessaire:  0 1\nPosition finale : 12, 54 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [0, 100], 'soif': [80, 100]} \n\nLa source de regenere de  20 soif\nEtat apres source :  {'faim': [0, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 10 ----------------------- \nCaptain America est mort\n\n\n0.0618047442040278\n[['Captain America', 10]]\n>>> ",
-			"settings":
-			{
-				"buffer_size": 5409,
+				"buffer_size": 1447,
 				"line_ending": "Windows",
-				"name": "*REPL* [python]",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "----------------------- Tour n 0 ----------------------- \n         Captain America\n\nPosition debut : 10, 50 \nEtat debut :  {'faim': [100, 100], 'soif': [100, 100]} \n\nSources a portee :  [Source de soif, situee a (7,50), avec 10 de eau6, Source de soif, situee a (13,46), avec 10 de eau69]\nURGENT :  ('faim', [100, 100])\n\nSource choisie :  Source de soif, situee a (7,50), avec 10 de eau6\ndeplacement necessaire:  -3 0\nPosition finale : 9, 50 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [90, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 1 ----------------------- \n         Captain America\n\nPosition debut : 9, 50 \nEtat debut :  {'faim': [90, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (7,50), avec 20 de eau6, Source de soif, situee a (13,46), avec 20 de eau69]\nURGENT :  ('faim', [90, 100])\n\nSource choisie :  Source de soif, situee a (7,50), avec 20 de eau6\ndeplacement necessaire:  -2 0\nPosition finale : 8, 50 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [80, 100], 'soif': [80, 100]} \n\n\n\n----------------------- Tour n 2 ----------------------- \n         Captain America\n\nPosition debut : 8, 50 \nEtat debut :  {'faim': [80, 100], 'soif': [80, 100]} \n\nSources a portee :  [Source de soif, situee a (7,50), avec 30 de eau6]\nURGENT :  ('faim', [80, 100])\n\nSource choisie :  Source de soif, situee a (7,50), avec 30 de eau6\ndeplacement necessaire:  -1 0\nPosition finale : 7, 50 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [70, 100], 'soif': [70, 100]} \n\nLa source de regenere de  30 soif\nEtat apres source :  {'faim': [70, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 3 ----------------------- \n         Captain America\n\nPosition debut : 7, 50 \nEtat debut :  {'faim': [70, 100], 'soif': [100, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 8, 51 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [60, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 4 ----------------------- \n         Captain America\n\nPosition debut : 8, 51 \nEtat debut :  {'faim': [60, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (7,50), avec 20 de eau6]\nURGENT :  ('faim', [60, 100])\n\nSource choisie :  Source de soif, situee a (7,50), avec 20 de eau6\ndeplacement necessaire:  -1 -1\nPosition finale : 7, 50 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [50, 100], 'soif': [80, 100]} \n\nLa source de regenere de  20 soif\nEtat apres source :  {'faim': [50, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 5 ----------------------- \n         Captain America\n\nPosition debut : 7, 50 \nEtat debut :  {'faim': [50, 100], 'soif': [100, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 8, 51 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [40, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 6 ----------------------- \n         Captain America\n\nPosition debut : 8, 51 \nEtat debut :  {'faim': [40, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (7,50), avec 20 de eau6]\nURGENT :  ('faim', [40, 100])\n\nSource choisie :  Source de soif, situee a (7,50), avec 20 de eau6\ndeplacement necessaire:  -1 -1\nPosition finale : 7, 50 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [30, 100], 'soif': [80, 100]} \n\nLa source de regenere de  20 soif\nEtat apres source :  {'faim': [30, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 7 ----------------------- \n         Captain America\n\nPosition debut : 7, 50 \nEtat debut :  {'faim': [30, 100], 'soif': [100, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 6, 50 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [20, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 8 ----------------------- \n         Captain America\n\nPosition debut : 6, 50 \nEtat debut :  {'faim': [20, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (7,50), avec 20 de eau6]\nURGENT :  ('faim', [20, 100])\n\nSource choisie :  Source de soif, situee a (7,50), avec 20 de eau6\ndeplacement necessaire:  1 0\nPosition finale : 7, 50 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [10, 100], 'soif': [80, 100]} \n\nLa source de regenere de  20 soif\nEtat apres source :  {'faim': [10, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 9 ----------------------- \n         Captain America\n\nPosition debut : 7, 50 \nEtat debut :  {'faim': [10, 100], 'soif': [100, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 7, 49 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [0, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 10 ----------------------- \nCaptain America est mort\n\n\n0.06082413738245975\n[['Captain America', 10]]\n>>> ",
-			"settings":
-			{
-				"buffer_size": 4882,
-				"line_ending": "Windows",
-				"name": "*REPL* [python]",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "----------------------- Tour n 0 ----------------------- \n         Captain America\n\nPosition debut : 10, 50 \nEtat debut :  {'faim': [100, 100], 'soif': [100, 100]} \n\nSources a portee :  [Source de soif, situee a (11,53), avec 10 de eau5, Source de faim, situee a (14,50), avec 10 de viande51, Source de soif, situee a (14,51), avec 10 de eau63]\nURGENT :  ('faim', [100, 100])\n\nSource choisie :  Source de soif, situee a (11,53), avec 10 de eau5\ndeplacement necessaire:  1 3\nPosition finale : 10, 51 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [90, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 1 ----------------------- \n         Captain America\n\nPosition debut : 10, 51 \nEtat debut :  {'faim': [90, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (11,53), avec 20 de eau5, Source de faim, situee a (14,50), avec 15 de viande51, Source de soif, situee a (14,51), avec 20 de eau63]\nURGENT :  ('faim', [90, 100])\n\nSource choisie :  Source de soif, situee a (11,53), avec 20 de eau5\ndeplacement necessaire:  1 2\nPosition finale : 10, 52 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [80, 100], 'soif': [80, 100]} \n\n\n\n----------------------- Tour n 2 ----------------------- \n         Captain America\n\nPosition debut : 10, 52 \nEtat debut :  {'faim': [80, 100], 'soif': [80, 100]} \n\nSources a portee :  [Source de soif, situee a (11,53), avec 30 de eau5, Source de faim, situee a (14,50), avec 20 de viande51, Source de soif, situee a (14,51), avec 30 de eau63]\nURGENT :  ('faim', [80, 100])\n\nSource choisie :  Source de soif, situee a (11,53), avec 30 de eau5\ndeplacement necessaire:  1 1\nPosition finale : 11, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [70, 100], 'soif': [70, 100]} \n\nLa source de regenere de  30 soif\nEtat apres source :  {'faim': [70, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 3 ----------------------- \n         Captain America\n\nPosition debut : 11, 53 \nEtat debut :  {'faim': [70, 100], 'soif': [100, 100]} \n\nSources a portee :  [Source de faim, situee a (14,50), avec 25 de viande51, Source de soif, situee a (14,51), avec 40 de eau63]\nURGENT :  ('faim', [70, 100])\n\nSource choisie :  Source de soif, situee a (14,51), avec 40 de eau63\ndeplacement necessaire:  3 -2\nPosition finale : 12, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [60, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 4 ----------------------- \n         Captain America\n\nPosition debut : 12, 53 \nEtat debut :  {'faim': [60, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (11,53), avec 20 de eau5, Source de faim, situee a (14,50), avec 30 de viande51, Source de soif, situee a (14,51), avec 50 de eau63]\nURGENT :  ('faim', [60, 100])\n\nSource choisie :  Source de soif, situee a (11,53), avec 20 de eau5\ndeplacement necessaire:  -1 0\nPosition finale : 11, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [50, 100], 'soif': [80, 100]} \n\nLa source de regenere de  20 soif\nEtat apres source :  {'faim': [50, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 5 ----------------------- \n         Captain America\n\nPosition debut : 11, 53 \nEtat debut :  {'faim': [50, 100], 'soif': [100, 100]} \n\nSources a portee :  [Source de faim, situee a (14,50), avec 35 de viande51, Source de soif, situee a (14,51), avec 60 de eau63]\nURGENT :  ('faim', [50, 100])\n\nSource choisie :  Source de soif, situee a (14,51), avec 60 de eau63\ndeplacement necessaire:  3 -2\nPosition finale : 12, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [40, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 6 ----------------------- \n         Captain America\n\nPosition debut : 12, 53 \nEtat debut :  {'faim': [40, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (11,53), avec 20 de eau5, Source de faim, situee a (14,50), avec 40 de viande51, Source de soif, situee a (14,51), avec 70 de eau63]\nURGENT :  ('faim', [40, 100])\n\nSource choisie :  Source de soif, situee a (11,53), avec 20 de eau5\ndeplacement necessaire:  -1 0\nPosition finale : 11, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [30, 100], 'soif': [80, 100]} \n\nLa source de regenere de  20 soif\nEtat apres source :  {'faim': [30, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 7 ----------------------- \n         Captain America\n\nPosition debut : 11, 53 \nEtat debut :  {'faim': [30, 100], 'soif': [100, 100]} \n\nSources a portee :  [Source de faim, situee a (14,50), avec 45 de viande51, Source de soif, situee a (14,51), avec 80 de eau63]\nURGENT :  ('faim', [30, 100])\n\nSource choisie :  Source de soif, situee a (14,51), avec 80 de eau63\ndeplacement necessaire:  3 -2\nPosition finale : 12, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [20, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 8 ----------------------- \n         Captain America\n\nPosition debut : 12, 53 \nEtat debut :  {'faim': [20, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (11,53), avec 20 de eau5, Source de faim, situee a (14,50), avec 50 de viande51, Source de soif, situee a (14,51), avec 90 de eau63]\nURGENT :  ('faim', [20, 100])\n\nSource choisie :  Source de soif, situee a (11,53), avec 20 de eau5\ndeplacement necessaire:  -1 0\nPosition finale : 11, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [10, 100], 'soif': [80, 100]} \n\nLa source de regenere de  20 soif\nEtat apres source :  {'faim': [10, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 9 ----------------------- \n         Captain America\n\nPosition debut : 11, 53 \nEtat debut :  {'faim': [10, 100], 'soif': [100, 100]} \n\nSources a portee :  [Source de faim, situee a (14,50), avec 55 de viande51, Source de soif, situee a (14,51), avec 100 de eau63]\nURGENT :  ('faim', [10, 100])\n\nSource choisie :  Source de soif, situee a (14,51), avec 100 de eau63\ndeplacement necessaire:  3 -2\nPosition finale : 12, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [0, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 10 ----------------------- \nCaptain America est mort\n\n\n0.059214026312593336\n[['Captain America', 10]]\n>>> ",
-			"settings":
-			{
-				"buffer_size": 6342,
-				"line_ending": "Windows",
-				"name": "*REPL* [python]",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "----------------------- Tour n 0 ----------------------- \n         Captain America\n\nPosition debut : 10, 50 \nEtat debut :  {'faim': [100, 100], 'soif': [100, 100]} \n\nSources a portee :  [Source de faim, situee a (10,46), avec 10 de viande90, Source de soif, situee a (10,54), avec 10 de eau44]\nURGENT :  ('faim', [100, 100])\n['faim', 'soif']\nSource de faim, situee a (10,46), avec 10 de viande90\nSource choisie :  Source de faim, situee a (10,46), avec 10 de viande90\ndeplacement necessaire:  0 -4\nPosition finale : 10, 49 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [90, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 1 ----------------------- \n         Captain America\n\nPosition debut : 10, 49 \nEtat debut :  {'faim': [90, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de faim, situee a (10,46), avec 15 de viande90]\nURGENT :  ('faim', [90, 100])\n['faim']\nSource de faim, situee a (10,46), avec 15 de viande90\nSource choisie :  Source de faim, situee a (10,46), avec 15 de viande90\ndeplacement necessaire:  0 -3\nPosition finale : 10, 48 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [80, 100], 'soif': [80, 100]} \n\n\n\n----------------------- Tour n 2 ----------------------- \n         Captain America\n\nPosition debut : 10, 48 \nEtat debut :  {'faim': [80, 100], 'soif': [80, 100]} \n\nSources a portee :  [Source de faim, situee a (10,46), avec 20 de viande90]\nURGENT :  ('faim', [80, 100])\n['faim']\nSource de faim, situee a (10,46), avec 20 de viande90\nSource choisie :  Source de faim, situee a (10,46), avec 20 de viande90\ndeplacement necessaire:  0 -2\nPosition finale : 10, 47 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [70, 100], 'soif': [70, 100]} \n\n\n\n----------------------- Tour n 3 ----------------------- \n         Captain America\n\nPosition debut : 10, 47 \nEtat debut :  {'faim': [70, 100], 'soif': [70, 100]} \n\nSources a portee :  [Source de faim, situee a (10,46), avec 25 de viande90]\nURGENT :  ('faim', [70, 100])\n['faim']\nSource de faim, situee a (10,46), avec 25 de viande90\nSource choisie :  Source de faim, situee a (10,46), avec 25 de viande90\ndeplacement necessaire:  0 -1\nPosition finale : 10, 46 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [60, 100], 'soif': [60, 100]} \n\nLa source de regenere de  25 faim\nEtat apres source :  {'faim': [85, 100], 'soif': [60, 100]}\n\n\n----------------------- Tour n 4 ----------------------- \n         Captain America\n\nPosition debut : 10, 46 \nEtat debut :  {'faim': [85, 100], 'soif': [60, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 11, 46 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [75, 100], 'soif': [50, 100]} \n\n\n\n----------------------- Tour n 5 ----------------------- \n         Captain America\n\nPosition debut : 11, 46 \nEtat debut :  {'faim': [75, 100], 'soif': [50, 100]} \n\nSources a portee :  [Source de faim, situee a (10,46), avec 10 de viande90]\nURGENT :  ('soif', [50, 100])\n['faim']\nTraceback (most recent call last):\n  File \"D:\\Cl■ent\\Documents\\Code\\Python\\Jeux Pr■a\\main0.5.py\", line 273, in <module>\n    update_pions(liste_tour_mort, tour)\n  File \"D:\\Cl■ent\\Documents\\Code\\Python\\Jeux Pr■a\\main0.5.py\", line 236, in update_pions\n    liste_pions[j].update_pion()\n  File \"D:\\Cl■ent\\Documents\\Code\\Python\\Jeux Pr■a\\main0.5.py\", line 80, in update_pion\n    self.choix_source()\n  File \"D:\\Cl■ent\\Documents\\Code\\Python\\Jeux Pr■a\\main0.5.py\", line 135, in choix_source\n    self.indice_source = self.type_sources.index(self.besoin_urgent[0])\nValueError: 'soif' is not in list\n>>> ",
-			"settings":
-			{
-				"buffer_size": 3617,
-				"line_ending": "Windows",
-				"name": "*REPL* [python]",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "----------------------- Tour n 0 ----------------------- \n         Captain America\n\nPosition debut : 10, 50 \nEtat debut :  {'soif': [100, 100], 'faim': [100, 100]} \n\nSources a portee :  [Source de faim, situee a (9,53), avec 10 de viande89]\nURGENT :  ('soif', [100, 100])\n['faim']\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de faim, situee a (9,53), avec 10 de viande89\ndeplacement necessaire:  -1 3\nPosition finale : 10, 51 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'soif': [90, 100], 'faim': [90, 100]} \n\n\n\n----------------------- Tour n 1 ----------------------- \n         Captain America\n\nPosition debut : 10, 51 \nEtat debut :  {'soif': [90, 100], 'faim': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (7,55), avec 20 de eau1, Source de faim, situee a (9,53), avec 15 de viande89]\nURGENT :  ('soif', [90, 100])\n['soif', 'faim']\nSource pour besoin urgent trouvee\nSource choisie :  Source de soif, situee a (7,55), avec 20 de eau1\ndeplacement necessaire:  -3 4\nPosition finale : 10, 52 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'soif': [80, 100], 'faim': [80, 100]} \n\n\n\n----------------------- Tour n 2 ----------------------- \n         Captain America\n\nPosition debut : 10, 52 \nEtat debut :  {'soif': [80, 100], 'faim': [80, 100]} \n\nSources a portee :  [Source de soif, situee a (7,55), avec 30 de eau1, Source de faim, situee a (9,53), avec 20 de viande89]\nURGENT :  ('soif', [80, 100])\n['soif', 'faim']\nSource pour besoin urgent trouvee\nSource choisie :  Source de soif, situee a (7,55), avec 30 de eau1\ndeplacement necessaire:  -3 3\nPosition finale : 10, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'soif': [70, 100], 'faim': [70, 100]} \n\n\n\n----------------------- Tour n 3 ----------------------- \n         Captain America\n\nPosition debut : 10, 53 \nEtat debut :  {'soif': [70, 100], 'faim': [70, 100]} \n\nSources a portee :  [Source de soif, situee a (7,55), avec 40 de eau1, Source de faim, situee a (9,53), avec 25 de viande89, Source de soif, situee a (10,57), avec 40 de eau64]\nURGENT :  ('soif', [70, 100])\n['soif', 'faim', 'soif']\nSource pour besoin urgent trouvee\nSource choisie :  Source de soif, situee a (7,55), avec 40 de eau1\ndeplacement necessaire:  -3 2\nPosition finale : 9, 53 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'soif': [60, 100], 'faim': [60, 100]} \n\n\n\n----------------------- Tour n 4 ----------------------- \n         Captain America\n\nPosition debut : 9, 53 \nEtat debut :  {'soif': [60, 100], 'faim': [60, 100]} \n\nSources a portee :  [Source de soif, situee a (7,55), avec 50 de eau1, Source de soif, situee a (10,57), avec 50 de eau64]\nURGENT :  ('soif', [60, 100])\n['soif', 'soif']\nSource pour besoin urgent trouvee\nSource choisie :  Source de soif, situee a (7,55), avec 50 de eau1\ndeplacement necessaire:  -2 2\nPosition finale : 9, 54 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'soif': [50, 100], 'faim': [50, 100]} \n\n\n\n----------------------- Tour n 5 ----------------------- \n         Captain America\n\nPosition debut : 9, 54 \nEtat debut :  {'soif': [50, 100], 'faim': [50, 100]} \n\nSources a portee :  [Source de soif, situee a (7,55), avec 60 de eau1, Source de faim, situee a (9,53), avec 35 de viande89, Source de soif, situee a (10,57), avec 60 de eau64]\nURGENT :  ('soif', [50, 100])\n['soif', 'faim', 'soif']\nSource pour besoin urgent trouvee\nSource choisie :  Source de soif, situee a (7,55), avec 60 de eau1\ndeplacement necessaire:  -2 1\nPosition finale : 8, 54 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'soif': [40, 100], 'faim': [40, 100]} \n\n\n\n----------------------- Tour n 6 ----------------------- \n         Captain America\n\nPosition debut : 8, 54 \nEtat debut :  {'soif': [40, 100], 'faim': [40, 100]} \n\nSources a portee :  [Source de soif, situee a (7,55), avec 70 de eau1, Source de faim, situee a (9,53), avec 40 de viande89, Source de soif, situee a (10,57), avec 70 de eau64]\nURGENT :  ('soif', [40, 100])\n['soif', 'faim', 'soif']\nSource pour besoin urgent trouvee\nSource choisie :  Source de soif, situee a (7,55), avec 70 de eau1\ndeplacement necessaire:  -1 1\nPosition finale : 8, 55 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'soif': [30, 100], 'faim': [30, 100]} \n\n\n\n----------------------- Tour n 7 ----------------------- \n         Captain America\n\nPosition debut : 8, 55 \nEtat debut :  {'soif': [30, 100], 'faim': [30, 100]} \n\nSources a portee :  [Source de soif, situee a (7,55), avec 80 de eau1, Source de faim, situee a (9,53), avec 45 de viande89, Source de soif, situee a (10,57), avec 80 de eau64]\nURGENT :  ('soif', [30, 100])\n['soif', 'faim', 'soif']\nSource pour besoin urgent trouvee\nSource choisie :  Source de soif, situee a (7,55), avec 80 de eau1\ndeplacement necessaire:  -1 0\nPosition finale : 7, 55 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'soif': [20, 100], 'faim': [20, 100]} \n\nLa source de regenere de  80 soif\nEtat apres source :  {'soif': [100, 100], 'faim': [20, 100]}\n\n\n----------------------- Tour n 8 ----------------------- \n         Captain America\n\nPosition debut : 7, 55 \nEtat debut :  {'soif': [100, 100], 'faim': [20, 100]} \n\nSources a portee :  [Source de faim, situee a (9,53), avec 50 de viande89, Source de soif, situee a (10,57), avec 90 de eau64]\nURGENT :  ('faim', [20, 100])\n['faim', 'soif']\nSource pour besoin urgent trouvee\nSource choisie :  Source de faim, situee a (9,53), avec 50 de viande89\ndeplacement necessaire:  2 -2\nPosition finale : 7, 54 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'soif': [90, 100], 'faim': [10, 100]} \n\n\n\n----------------------- Tour n 9 ----------------------- \n         Captain America\n\nPosition debut : 7, 54 \nEtat debut :  {'soif': [90, 100], 'faim': [10, 100]} \n\nSources a portee :  [Source de soif, situee a (7,55), avec 20 de eau1, Source de faim, situee a (9,53), avec 55 de viande89, Source de soif, situee a (10,57), avec 100 de eau64]\nURGENT :  ('faim', [10, 100])\n['soif', 'faim', 'soif']\nSource pour besoin urgent trouvee\nSource choisie :  Source de faim, situee a (9,53), avec 55 de viande89\ndeplacement necessaire:  2 -1\nPosition finale : 8, 54 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'soif': [80, 100], 'faim': [0, 100]} \n\n\n\n----------------------- Tour n 10 ----------------------- \nCaptain America est mort\n\n\n0.05883726459876802\n[['Captain America', 10]]\n>>> ",
-			"settings":
-			{
-				"buffer_size": 6457,
-				"line_ending": "Windows",
-				"name": "*REPL* [python]",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "----------------------- Tour n 0 ----------------------- \n         Captain America\n\nPosition debut : 10, 50 \nEtat debut :  {'faim': [100, 100], 'soif': [100, 100]} \n\nSources a portee :  [Source de soif, situee a (5,54), avec 10 de eau41, Source de soif, situee a (12,45), avec 10 de eau84]\nURGENT :  ('faim', [100, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (12,45), avec 10 de eau84\ndeplacement necessaire:  2 -5\nPosition finale : 10, 49 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [90, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 1 ----------------------- \n         Captain America\n\nPosition debut : 10, 49 \nEtat debut :  {'faim': [90, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (12,45), avec 20 de eau84, Source de soif, situee a (14,44), avec 20 de eau4]\nURGENT :  ('faim', [90, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (12,45), avec 20 de eau84\ndeplacement necessaire:  2 -4\nPosition finale : 10, 48 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [80, 100], 'soif': [80, 100]} \n\n\n\n----------------------- Tour n 2 ----------------------- \n         Captain America\n\nPosition debut : 10, 48 \nEtat debut :  {'faim': [80, 100], 'soif': [80, 100]} \n\nSources a portee :  [Source de soif, situee a (12,45), avec 30 de eau84, Source de soif, situee a (14,44), avec 30 de eau4]\nURGENT :  ('faim', [80, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (12,45), avec 30 de eau84\ndeplacement necessaire:  2 -3\nPosition finale : 10, 47 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [70, 100], 'soif': [70, 100]} \n\n\n\n----------------------- Tour n 3 ----------------------- \n         Captain America\n\nPosition debut : 10, 47 \nEtat debut :  {'faim': [70, 100], 'soif': [70, 100]} \n\nSources a portee :  [Source de soif, situee a (12,45), avec 40 de eau84, Source de soif, situee a (14,44), avec 40 de eau4]\nURGENT :  ('faim', [70, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (12,45), avec 40 de eau84\ndeplacement necessaire:  2 -2\nPosition finale : 10, 46 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [60, 100], 'soif': [60, 100]} \n\n\n\n----------------------- Tour n 4 ----------------------- \n         Captain America\n\nPosition debut : 10, 46 \nEtat debut :  {'faim': [60, 100], 'soif': [60, 100]} \n\nSources a portee :  [Source de soif, situee a (12,45), avec 50 de eau84, Source de soif, situee a (14,44), avec 50 de eau4]\nURGENT :  ('faim', [60, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (12,45), avec 50 de eau84\ndeplacement necessaire:  2 -1\nPosition finale : 11, 46 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [50, 100], 'soif': [50, 100]} \n\n\n\n----------------------- Tour n 5 ----------------------- \n         Captain America\n\nPosition debut : 11, 46 \nEtat debut :  {'faim': [50, 100], 'soif': [50, 100]} \n\nSources a portee :  [Source de soif, situee a (12,45), avec 60 de eau84, Source de soif, situee a (14,44), avec 60 de eau4]\nURGENT :  ('faim', [50, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (12,45), avec 60 de eau84\ndeplacement necessaire:  1 -1\nPosition finale : 11, 45 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [40, 100], 'soif': [40, 100]} \n\n\n\n----------------------- Tour n 6 ----------------------- \n         Captain America\n\nPosition debut : 11, 45 \nEtat debut :  {'faim': [40, 100], 'soif': [40, 100]} \n\nSources a portee :  [Source de soif, situee a (12,45), avec 70 de eau84, Source de soif, situee a (14,44), avec 70 de eau4]\nURGENT :  ('faim', [40, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (12,45), avec 70 de eau84\ndeplacement necessaire:  1 0\nPosition finale : 12, 45 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [30, 100], 'soif': [30, 100]} \n\nLa source de regenere de  70 soif\nEtat apres source :  {'faim': [30, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 7 ----------------------- \n         Captain America\n\nPosition debut : 12, 45 \nEtat debut :  {'faim': [30, 100], 'soif': [100, 100]} \n\nSources a portee :  [Source de soif, situee a (14,44), avec 80 de eau4]\nURGENT :  ('faim', [30, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (14,44), avec 80 de eau4\ndeplacement necessaire:  2 -1\nPosition finale : 13, 45 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [20, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 8 ----------------------- \n         Captain America\n\nPosition debut : 13, 45 \nEtat debut :  {'faim': [20, 100], 'soif': [90, 100]} \n\nSources a portee :  [Source de soif, situee a (12,45), avec 20 de eau84, Source de soif, situee a (14,44), avec 90 de eau4]\nURGENT :  ('faim', [20, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (12,45), avec 20 de eau84\ndeplacement necessaire:  -1 0\nPosition finale : 12, 45 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [10, 100], 'soif': [80, 100]} \n\nLa source de regenere de  20 soif\nEtat apres source :  {'faim': [10, 100], 'soif': [100, 100]}\n\n\n----------------------- Tour n 9 ----------------------- \n         Captain America\n\nPosition debut : 12, 45 \nEtat debut :  {'faim': [10, 100], 'soif': [100, 100]} \n\nSources a portee :  [Source de soif, situee a (14,44), avec 100 de eau4]\nURGENT :  ('faim', [10, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (14,44), avec 100 de eau4\ndeplacement necessaire:  2 -1\nPosition finale : 13, 45 \nLe deplacement coute 10 de besoins\nEtat apres deplacement :  {'faim': [0, 100], 'soif': [90, 100]} \n\n\n\n----------------------- Tour n 10 ----------------------- \nCaptain America est mort\n\n\n0.0640648868346371\n[['Captain America', 10]]\n>>> ",
-			"settings":
-			{
-				"buffer_size": 6144,
-				"line_ending": "Windows",
-				"name": "*REPL* [python]",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "----------------------- Tour n 0 ----------------------- \n         Captain America\n\nPosition debut : 10, 50 \nEtat debut :  {'soif': [100, 100], 'faim': [100, 100]} \n\nSources a portee :  [Source de soif, situee a (13,54), avec 10 de eau56, Source de faim, situee a (14,46), avec 10 de viande44]\nURGENT :  ('soif', [100, 100])\nSource pour besoin urgent trouvee\nSource choisie :  Source de soif, situee a (13,54), avec 10 de eau56\ndeplacement necessaire:  3 4\nPosition finale : 10, 51 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [95.0, 100], 'faim': [95.0, 100]} \n\n\n\n----------------------- Tour n 1 ----------------------- \n         Captain America\n\nPosition debut : 10, 51 \nEtat debut :  {'soif': [95.0, 100], 'faim': [95.0, 100]} \n\nSources a portee :  [Source de soif, situee a (13,54), avec 20 de eau56, Source de faim, situee a (14,46), avec 15 de viande44]\nURGENT :  ('soif', [95.0, 100])\nSource pour besoin urgent trouvee\nSource choisie :  Source de soif, situee a (13,54), avec 20 de eau56\ndeplacement necessaire:  3 3\nPosition finale : 11, 52 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [90.0, 100], 'faim': [90.0, 100]} \n\n\n\n----------------------- Tour n 2 ----------------------- \n         Captain America\n\nPosition debut : 11, 52 \nEtat debut :  {'soif': [90.0, 100], 'faim': [90.0, 100]} \n\nSources a portee :  [Source de soif, situee a (13,54), avec 30 de eau56]\nURGENT :  ('soif', [90.0, 100])\nSource pour besoin urgent trouvee\nSource choisie :  Source de soif, situee a (13,54), avec 30 de eau56\ndeplacement necessaire:  2 2\nPosition finale : 12, 53 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [85.0, 100], 'faim': [85.0, 100]} \n\n\n\n----------------------- Tour n 3 ----------------------- \n         Captain America\n\nPosition debut : 12, 53 \nEtat debut :  {'soif': [85.0, 100], 'faim': [85.0, 100]} \n\nSources a portee :  [Source de soif, situee a (13,54), avec 40 de eau56]\nURGENT :  ('soif', [85.0, 100])\nSource pour besoin urgent trouvee\nSource choisie :  Source de soif, situee a (13,54), avec 40 de eau56\ndeplacement necessaire:  1 1\nPosition finale : 13, 54 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [80.0, 100], 'faim': [80.0, 100]} \n\nLa source de regenere de  20.0 soif\nEtat apres source :  {'soif': [100.0, 100], 'faim': [80.0, 100]}\n\n\n----------------------- Tour n 4 ----------------------- \n         Captain America\n\nPosition debut : 13, 54 \nEtat debut :  {'soif': [100.0, 100], 'faim': [80.0, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 13, 55 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [95.0, 100], 'faim': [75.0, 100]} \n\n\n\n----------------------- Tour n 5 ----------------------- \n         Captain America\n\nPosition debut : 13, 55 \nEtat debut :  {'soif': [95.0, 100], 'faim': [75.0, 100]} \n\nSources a portee :  [Source de soif, situee a (13,54), avec 40.0 de eau56]\nURGENT :  ('faim', [75.0, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (13,54), avec 40.0 de eau56\ndeplacement necessaire:  0 -1\nPosition finale : 13, 54 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [90.0, 100], 'faim': [70.0, 100]} \n\nLa source de regenere de  10.0 soif\nEtat apres source :  {'soif': [100.0, 100], 'faim': [70.0, 100]}\n\n\n----------------------- Tour n 6 ----------------------- \n         Captain America\n\nPosition debut : 13, 54 \nEtat debut :  {'soif': [100.0, 100], 'faim': [70.0, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 14, 54 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [95.0, 100], 'faim': [65.0, 100]} \n\n\n\n----------------------- Tour n 7 ----------------------- \n         Captain America\n\nPosition debut : 14, 54 \nEtat debut :  {'soif': [95.0, 100], 'faim': [65.0, 100]} \n\nSources a portee :  [Source de soif, situee a (13,54), avec 50.0 de eau56]\nURGENT :  ('faim', [65.0, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (13,54), avec 50.0 de eau56\ndeplacement necessaire:  -1 0\nPosition finale : 13, 54 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [90.0, 100], 'faim': [60.0, 100]} \n\nLa source de regenere de  10.0 soif\nEtat apres source :  {'soif': [100.0, 100], 'faim': [60.0, 100]}\n\n\n----------------------- Tour n 8 ----------------------- \n         Captain America\n\nPosition debut : 13, 54 \nEtat debut :  {'soif': [100.0, 100], 'faim': [60.0, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 13, 55 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [95.0, 100], 'faim': [55.0, 100]} \n\n\n\n----------------------- Tour n 9 ----------------------- \n         Captain America\n\nPosition debut : 13, 55 \nEtat debut :  {'soif': [95.0, 100], 'faim': [55.0, 100]} \n\nSources a portee :  [Source de soif, situee a (13,54), avec 60.0 de eau56]\nURGENT :  ('faim', [55.0, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (13,54), avec 60.0 de eau56\ndeplacement necessaire:  0 -1\nPosition finale : 13, 54 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [90.0, 100], 'faim': [50.0, 100]} \n\nLa source de regenere de  10.0 soif\nEtat apres source :  {'soif': [100.0, 100], 'faim': [50.0, 100]}\n\n\n----------------------- Tour n 10 ----------------------- \n         Captain America\n\nPosition debut : 13, 54 \nEtat debut :  {'soif': [100.0, 100], 'faim': [50.0, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 13, 55 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [95.0, 100], 'faim': [45.0, 100]} \n\n\n\n----------------------- Tour n 11 ----------------------- \n         Captain America\n\nPosition debut : 13, 55 \nEtat debut :  {'soif': [95.0, 100], 'faim': [45.0, 100]} \n\nSources a portee :  [Source de soif, situee a (13,54), avec 70.0 de eau56]\nURGENT :  ('faim', [45.0, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (13,54), avec 70.0 de eau56\ndeplacement necessaire:  0 -1\nPosition finale : 13, 54 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [90.0, 100], 'faim': [40.0, 100]} \n\nLa source de regenere de  10.0 soif\nEtat apres source :  {'soif': [100.0, 100], 'faim': [40.0, 100]}\n\n\n----------------------- Tour n 12 ----------------------- \n         Captain America\n\nPosition debut : 13, 54 \nEtat debut :  {'soif': [100.0, 100], 'faim': [40.0, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 13, 53 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [95.0, 100], 'faim': [35.0, 100]} \n\n\n\n----------------------- Tour n 13 ----------------------- \n         Captain America\n\nPosition debut : 13, 53 \nEtat debut :  {'soif': [95.0, 100], 'faim': [35.0, 100]} \n\nSources a portee :  [Source de soif, situee a (13,54), avec 80.0 de eau56]\nURGENT :  ('faim', [35.0, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (13,54), avec 80.0 de eau56\ndeplacement necessaire:  0 1\nPosition finale : 13, 54 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [90.0, 100], 'faim': [30.0, 100]} \n\nLa source de regenere de  10.0 soif\nEtat apres source :  {'soif': [100.0, 100], 'faim': [30.0, 100]}\n\n\n----------------------- Tour n 14 ----------------------- \n         Captain America\n\nPosition debut : 13, 54 \nEtat debut :  {'soif': [100.0, 100], 'faim': [30.0, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 12, 54 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [95.0, 100], 'faim': [25.0, 100]} \n\n\n\n----------------------- Tour n 15 ----------------------- \n         Captain America\n\nPosition debut : 12, 54 \nEtat debut :  {'soif': [95.0, 100], 'faim': [25.0, 100]} \n\nSources a portee :  [Source de soif, situee a (13,54), avec 90.0 de eau56]\nURGENT :  ('faim', [25.0, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (13,54), avec 90.0 de eau56\ndeplacement necessaire:  1 0\nPosition finale : 13, 54 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [90.0, 100], 'faim': [20.0, 100]} \n\nLa source de regenere de  10.0 soif\nEtat apres source :  {'soif': [100.0, 100], 'faim': [20.0, 100]}\n\n\n----------------------- Tour n 16 ----------------------- \n         Captain America\n\nPosition debut : 13, 54 \nEtat debut :  {'soif': [100.0, 100], 'faim': [20.0, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 13, 55 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [95.0, 100], 'faim': [15.0, 100]} \n\n\n\n----------------------- Tour n 17 ----------------------- \n         Captain America\n\nPosition debut : 13, 55 \nEtat debut :  {'soif': [95.0, 100], 'faim': [15.0, 100]} \n\nSources a portee :  [Source de soif, situee a (13,54), avec 100.0 de eau56]\nURGENT :  ('faim', [15.0, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (13,54), avec 100.0 de eau56\ndeplacement necessaire:  0 -1\nPosition finale : 13, 54 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [90.0, 100], 'faim': [10.0, 100]} \n\nLa source de regenere de  10.0 soif\nEtat apres source :  {'soif': [100.0, 100], 'faim': [10.0, 100]}\n\n\n----------------------- Tour n 18 ----------------------- \n         Captain America\n\nPosition debut : 13, 54 \nEtat debut :  {'soif': [100.0, 100], 'faim': [10.0, 100]} \n\nPas de source trouvee a proximite.\nPosition finale : 14, 54 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [95.0, 100], 'faim': [5.0, 100]} \n\n\n\n----------------------- Tour n 19 ----------------------- \n         Captain America\n\nPosition debut : 14, 54 \nEtat debut :  {'soif': [95.0, 100], 'faim': [5.0, 100]} \n\nSources a portee :  [Source de soif, situee a (13,54), avec 110.0 de eau56]\nURGENT :  ('faim', [5.0, 100])\nIMPOSSIBLE trouver source pour besoin urgent\nSource choisie :  Source de soif, situee a (13,54), avec 110.0 de eau56\ndeplacement necessaire:  -1 0\nPosition finale : 13, 54 \nLe deplacement coute 5.0 de besoins\nEtat apres deplacement :  {'soif': [90.0, 100], 'faim': [0.0, 100]} \n\nLa source de regenere de  10.0 soif\nEtat apres source :  {'soif': [100.0, 100], 'faim': [0.0, 100]}\n\n\n----------------------- Tour n 20 ----------------------- \nCaptain America est mort\n\n\n0.12305482331971118\n[['Captain America', 20]]\n>>> ",
-			"settings":
-			{
-				"buffer_size": 10479,
-				"line_ending": "Windows",
-				"name": "*REPL* [python]",
+				"name": "Package Control Messages",
 				"read_only": true,
 				"scratch": true
 			}
 		},
 		{
-			"contents": "Hawkeye est mort au 20 tour\nHulk est mort au 20 tour\nIron Man est mort au 20 tour\nCaptain America est mort au 20 tour\nThor est mort au 49 tour\n1.4846395831587087\n[['Hawkeye', 20], ['Hulk', 20], ['Iron Man', 20], ['Captain America', 20], ['Thor', 49]]\n>>> ",
+			"file": "main0.5.py",
 			"settings":
 			{
-				"buffer_size": 255,
+				"buffer_size": 9376,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "* cb630b8 - (HEAD -> master, origin/master) (7 minutes ago) (2015-12-08 21:42:30 +0100) <Eagle220> tes\n* 4cf8f58 - (8 minutes ago) (2015-12-08 21:41:16 +0100) <Eagle220> Test\n* 0ac6f91 - (21 minutes ago) (2015-12-08 21:27:39 +0100) <Eagle220> Ajout de main0.5.py\n",
+			"settings":
+			{
+				"buffer_size": 263,
 				"line_ending": "Windows",
-				"name": "*REPL* [python]",
+				"name": "Git Log Graph",
+				"read_only": true,
 				"scratch": true
 			}
 		},
@@ -550,47 +491,119 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "insta",
+		"last_filter": "pus",
 		"selected_items":
 		[
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"pull",
-				"Git: Pull"
-			],
 			[
 				"pus",
 				"Git: Push"
 			],
 			[
-				"qui",
-				"Git: Quick Commit"
+				"remote",
+				"Git (SideBarGit): Remote add…"
 			],
 			[
-				"gitg",
-				"GitGutter: Compare Against Origin"
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"push",
+				"Git (SideBarGit): Push All Branches"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"git ",
+				"Git: Status"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"gutt",
+				"Git: Checkout Tag"
+			],
+			[
+				"dif",
+				"Git: Diff Current File"
 			],
 			[
 				"pul",
 				"Git: Pull"
 			],
 			[
+				"co",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
 				"com",
 				"Git: Commit"
 			],
 			[
-				"push",
+				"git",
+				"Git: Gui"
+			],
+			[
+				"gra",
+				"Git: Graph All"
+			],
+			[
+				"log",
+				"Git: Log All"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"ad",
+				"Git: Add..."
+			],
+			[
+				"a",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"grap",
+				"Git: Graph All"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"quo",
+				"Git: Quick Commit"
+			],
+			[
+				"stat",
+				"Git (SideBarGit): Status"
+			],
+			[
+				"pu",
 				"Git: Push"
 			],
 			[
-				"gi",
-				"Git: Commit"
+				"gitg",
+				"GitGutter: Compare Against Origin"
 			],
 			[
-				"git",
+				"gi",
 				"Git: Commit"
 			],
 			[
@@ -599,10 +612,6 @@
 			],
 			[
 				"pac ",
-				"Package Control: Install Package"
-			],
-			[
-				"ins",
 				"Package Control: Install Package"
 			],
 			[
@@ -668,10 +677,6 @@
 			[
 				"linte",
 				"SublimeLinter: Enable Linter"
-			],
-			[
-				"a",
-				"Anaconda: Autoformat PEP8 Errors"
 			],
 			[
 				"lint",
@@ -810,13 +815,16 @@
 				"Indentation: Convert to Spaces"
 			]
 		],
-		"width": 528.0
+		"width": 664.0
 	},
 	"console":
 	{
 		"height": 126.0,
 		"history":
 		[
+			"import git",
+			"improt igt",
+			"git",
 			"besoins",
 			"import y",
 			"import argparse",
@@ -849,13 +857,18 @@
 	"file_history":
 	[
 		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/D/Clément/Documents/Code/Python/Jeux Prépa/main0.5.py",
+		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Installed Packages/Git.sublime-package",
+		"/D/Clément/Documents/Code/Python/Jeux Prépa/.git/logs/HEAD",
+		"/D/Clément/Documents/Code/Python/Jeux Prépa/main0.3.py",
+		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Packages/User/SideBarGit.sublime-settings",
+		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Packages/SideBarGit/SideBarGit.sublime-settings",
+		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
 		"/C/Users/Clément/Desktop/Copie HTC/Download/modelisation d(x) gauche-20150412-133111166.py",
 		"/C/Users/Clément/Desktop/test.html",
 		"/E/Programmes 2/Spotify/3d/3d74bb2bbcdbff0b38534a69ec04fbdd2dc2da6c.file",
 		"/D/Clément/Videos/desktop.ini",
-		"/D/Clément/Documents/Code/Python/Jeux Prépa/main0.5.py",
-		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Installed Packages/Language - French - Français.sublime-package",
 		"/D/Clément/Documents/Code/Python/Jeux Prépa/main.py",
 		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
@@ -970,12 +983,7 @@
 		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
 		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
 		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/stino.global_settings",
-		"/C/TIPE2/Version en cours/v1.0/npyio.py",
-		"/D/Clément/Documents/Code/Processing/horloge/horloge.pde",
-		"/D/Clément/Documents/Code/Processing/Tutoe_croix/Tutoe_croix.pde",
-		"/D/Clément/Documents/Arduino/Bras_Robot/Bras_Robot.ino",
-		"/E/Programmes 2/Python 2.7/include/asdl.h"
+		"/C/Users/Clément/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/stino.global_settings"
 	],
 	"find":
 	{
@@ -983,9 +991,11 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"<current file>",
+			""
 		]
 	},
 	"find_state":
@@ -993,6 +1003,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"self",
 			"</h3>",
 			"<h3>",
 			"direction",
@@ -1104,36 +1115,60 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "main0.5.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9285,
+						"buffer_size": 1447,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								895,
-								895
+								912,
+								912
 							]
 						],
 						"settings":
 						{
-							"live_git_annotations": true,
-							"rulers":
+							"auto_indent": false,
+							"default_dir": "D:\\Clément\\Documents\\Code\\Python\\Jeux Prépa",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main0.5.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9376,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								80
-							],
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1141,471 +1176,37 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 9,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5409,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5409,
-								5409
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"auto_indent": false,
-							"default_dir": "D:\\Clément\\Documents\\Code\\Python\\Jeux Prépa",
-							"detect_indentation": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "python",
-							"repl_id": "d0de4fd39f0c47bd98251421ac5a2034",
-							"repl_restart_args":
-							{
-								"cmd":
-								[
-									"python",
-									"-i",
-									"-u",
-									"$file"
-								],
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"external_id": "python",
-								"syntax": "Packages/Python/Python.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1880.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
 				},
 				{
 					"buffer": 2,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4882,
+						"buffer_size": 263,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4882,
-								4882
+								263,
+								263
 							]
 						],
 						"settings":
 						{
-							"auto_complete": true,
-							"auto_indent": false,
 							"default_dir": "D:\\Clément\\Documents\\Code\\Python\\Jeux Prépa",
-							"detect_indentation": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "python",
-							"repl_id": "24bfd6a4c5624fdeab3d19ff84c37a58",
-							"repl_restart_args":
-							{
-								"cmd":
-								[
-									"python",
-									"-i",
-									"-u",
-									"$file"
-								],
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"external_id": "python",
-								"syntax": "Packages/Python/Python.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1966.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6342,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6342,
-								6342
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"auto_indent": false,
-							"default_dir": "D:\\Clément\\Documents\\Code\\Python\\Jeux Prépa",
-							"detect_indentation": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "python",
-							"repl_id": "f545f52a23f54f08b17b3d1808ba7b83",
-							"repl_restart_args":
-							{
-								"cmd":
-								[
-									"python",
-									"-i",
-									"-u",
-									"$file"
-								],
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"external_id": "python",
-								"syntax": "Packages/Python/Python.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 396.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3617,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3617,
-								3617
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"auto_indent": false,
-							"default_dir": "D:\\Clément\\Documents\\Code\\Python\\Jeux Prépa",
-							"detect_indentation": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "python",
-							"repl_id": "9ac66d1244874286ba7f65ca412ce7eb",
-							"repl_restart_args":
-							{
-								"cmd":
-								[
-									"python",
-									"-i",
-									"-u",
-									"$file"
-								],
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"external_id": "python",
-								"syntax": "Packages/Python/Python.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 900.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6457,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6457,
-								6457
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"auto_indent": false,
-							"default_dir": "D:\\Clément\\Documents\\Code\\Python\\Jeux Prépa",
-							"detect_indentation": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "python",
-							"repl_id": "c5e4be3b4f3f4c03a0a4547d427216b9",
-							"repl_restart_args":
-							{
-								"cmd":
-								[
-									"python",
-									"-i",
-									"-u",
-									"$file"
-								],
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"external_id": "python",
-								"syntax": "Packages/Python/Python.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2160.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6144,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6144,
-								6144
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"auto_indent": false,
-							"default_dir": "D:\\Clément\\Documents\\Code\\Python\\Jeux Prépa",
-							"detect_indentation": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "python",
-							"repl_id": "97177e884be64734a7de7b6f1a2c9f4a",
-							"repl_restart_args":
-							{
-								"cmd":
-								[
-									"python",
-									"-i",
-									"-u",
-									"$file"
-								],
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"external_id": "python",
-								"syntax": "Packages/Python/Python.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1985.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10479,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10170,
-								10170
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"auto_indent": false,
-							"default_dir": "D:\\Clément\\Documents\\Code\\Python\\Jeux Prépa",
-							"detect_indentation": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "python",
-							"repl_id": "2e15791a4f4c45bf837183993e4c6047",
-							"repl_restart_args":
-							{
-								"cmd":
-								[
-									"python",
-									"-i",
-									"-u",
-									"$file"
-								],
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"external_id": "python",
-								"syntax": "Packages/Python/Python.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4080.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 255,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								255,
-								255
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"auto_indent": false,
-							"default_dir": "D:\\Clément\\Documents\\Code\\Python\\Jeux Prépa",
-							"detect_indentation": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "python",
-							"repl_id": "43191ee00878434294335b855b21a738",
-							"repl_restart_args":
-							{
-								"cmd":
-								[
-									"python",
-									"-i",
-									"-u",
-									"$file"
-								],
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"external_id": "python",
-								"syntax": "Packages/Python/Python.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 3,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1658,11 +1259,11 @@
 						"translation.y": 30364.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 4,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1673,8 +1274,8 @@
 						"selection":
 						[
 							[
-								21308,
-								21308
+								937,
+								937
 							]
 						],
 						"settings":
@@ -1715,7 +1316,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1738,18 +1339,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1871,6 +1465,10 @@
 	{
 		"height": 100.0
 	},
+	"output.git-push":
+	{
+		"height": 100.0
+	},
 	"output.led rgb maison":
 	{
 		"height": 100.0
@@ -1908,6 +1506,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"c",
+				"COMMIT_EDITMSG"
+			]
 		],
 		"width": 0.0
 	},
@@ -1941,7 +1543,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 260.0,
+	"side_bar_width": 120.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

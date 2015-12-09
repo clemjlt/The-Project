@@ -15,6 +15,9 @@ from random import randint
 import os
 from time import clock
 
+def alex():
+    pass
+
 
 class Ressources(object):
 
